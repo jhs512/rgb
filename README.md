@@ -18,7 +18,7 @@
 ## Summary
 
 - In the age of AI, what matters most in a project is no longer how fast you ship code — it's **how well you establish and maintain order**.
-- The RGB methodology I'm describing is a way to manage that order by dividing it into **legislative, judicial, and executive** concerns.
+- The RGB methodology manages that order by separating concerns into three roles: **legislative, judicial, and executive.**
 - **Rules** is the legislature. And Rules itself breaks down further: the **constitution**, which defines the top-level structural principles of the project; the **laws**, which translate those principles into operational rules; and the **specs**, which define the features to be built.
 - **Guard (Test Cases)** is the judiciary. It rules on whether Rules have actually been violated, and enforces the project's order through tests.
 - **Build (Application Code)** is the executive. The actual service code — controllers, use cases, event handlers — operates only within the boundaries set by Rules and Guard.
